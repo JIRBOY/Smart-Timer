@@ -38,7 +38,7 @@ public class ManagerForm : Form
         _btnAdd = new Button { Text = "添加", Width = 70, Height = 29, Left = 5, Top = 8 };
         _btnEdit = new Button { Text = "编辑", Width = 70, Height = 29, Left = 80, Top = 8 };
         _btnDelete = new Button { Text = "删除", Width = 70, Height = 29, Left = 155, Top = 8 };
-        _btnToggle = new Button { Text = "启用/禁用", Width = 80, Height = 29, Left = 230, Top = 8 };
+        _btnToggle = new Button { Text = "启用/禁用", Width = 100, Height = 29, Left = 230, Top = 8 };
 
         _btnAdd.Click += BtnAdd_Click;
         _btnEdit.Click += BtnEdit_Click;
